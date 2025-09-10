@@ -9,14 +9,14 @@ const About = () => {
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
-            Who I Am ?
+          
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-800'>
-            I've always interested in many things. Tech, is one of them. Computer has been always attract me since my childhood. I began my first step to learn more about computer by bought a used Dell Laptop back when i'm  13 using my own money. From there, i learned a lot about basic computing and stuff. From there, my dream is to go to college and take computer as my major.
+            Hi, I'm Zeineddin Ahmad Bachtiar, a Computer Engineering graduate from Institut Teknologi Sepuluh Nopember (ITS). I have a strong interest in embedded systems, IoT development, and full-stack web technologies, with experience in creating real-time monitoring systems, data analytics tools, and interactive dashboards. I enjoy working on projects that connect hardware and software into practical solutions.
           </p>
           <p className='py-2 text-gray-800'>
-            I started to learn more about programming when covid pandemic. I started it by learning about Web Development, especially HTML and CSS, from Youtube's videos. Then in college, i learned about true programming, C language. Time goes by, they started to taught me about C++, while at the same time i taught myself about phyton language. Once, i made a simple 2D game using SFML Library for final task in Data Structures course.
+            I am passionate about leveraging technology to solve real-world problems while continuously learning and exploring new frameworks. With a detail-oriented and adaptive mindset, I’m always eager to collaborate, share ideas, and contribute to projects that bring innovation and impact.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>

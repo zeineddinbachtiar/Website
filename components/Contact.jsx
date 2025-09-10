@@ -28,9 +28,9 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className='py-2'>Zeineddin Ahmad Bachtiar</h2>
-                <p>Undergraduate Student</p>
+                <p>Bachelor Graduate</p>
                 <p className='py-4'>
-                  I am available for freelance, internship, or scholarship. Contact me and get in touch.
+                  I am available for trainee, fresh graduate position, or entry level-job. Contact me and get in touch.
                 </p>
               </div>
               <div>

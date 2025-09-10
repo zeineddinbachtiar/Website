@@ -10,14 +10,14 @@ const Main = () => {
       <div className='max-w-[1280px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p className='uppercase text-sm tracking-widest text-gray-600'>
-            JUST A REGULAR HUMAN WITH AN AMAZING DREAM
+            JUST A REGULAR PERSON WITH AN AMAZING DREAM
           </p>
           <h1 className='py-4 text-black-700'>
             Hi there, you can call me <span className='text-[#5651e5]'>Zein </span>
           </h1>
-          <h2 className='py-2 text-gray-500'>An Undergraduate Student at Institut Teknologi Sepuluh Nopember</h2>
+          <h2 className='py-2 text-gray-500'>A Fresh Graduate from Computer Engineering of Institut Teknologi Sepuluh Nopember</h2>
           <p className='py-4 text-gray-800 sm:max-w-[80%] m-auto text-right'>
-            People usually call me Zein. That's stands for Zeineddin Ahmad Bachtiar, which is my full name. Currently, i'm an Undergraduate Student at Institut Teknologi Sepuluh Nopember (ITS) Surabaya with Computer Engineering as my major. I'm a person of curious, active, energetic, and willing to adapt and learn new things. I'm also interested in a lot of things, and technology is one of them. 
+            People usually call me Zein. That's stands for Zeineddin Ahmad Bachtiar, which is my full name. Currently, i'm a Fresh Graduate from Computer Engineering in Institut Teknologi Sepuluh Nopember (ITS) Surabaya. I'm a person of curious, active, energetic, and willing to adapt and learn new things. I'm also interested in a lot of things, and technology is one of them. 
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a

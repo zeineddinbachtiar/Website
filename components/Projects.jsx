@@ -22,6 +22,27 @@ const Projects = () => {
             tech='SFML'
 
           />
+          <ProjectItem
+            title='ECGuard'
+            backgroundImg={game}
+            projectUrl='/ECG'
+            tech='SFML'
+
+          />
+          <ProjectItem
+            title='Thesis'
+            backgroundImg={game}
+            projectUrl='/thesis'
+            tech='SFML'
+
+          />
+          <ProjectItem
+            title='Google Maps Scrapper'
+            backgroundImg={game}
+            projectUrl='/scraper'
+            tech='SFML'
+
+          />
         </div>
       </div>
     </div>
