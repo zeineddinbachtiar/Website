@@ -14,8 +14,8 @@ const game = () => {
         {/* Gradient overlay - darker at bottom where text is */}
         <div className='absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/60 z-10' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2 text-4xl font-bold drop-shadow-2xl'>Story in Summer</h2>
-          <h3 className='text-xl drop-shadow-lg'>C++ / SFML</h3>
+          <h2 className='py-2 text-4xl font-bold drop-shadow-2xl'>ECGuard : Wireless ECG Monitoring System</h2>
+          <h3 className='text-xl drop-shadow-lg'>ESP32 / Web Dashboard</h3>
         </div>
       </div>
 
@@ -24,14 +24,31 @@ const game = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-           This game takes inspiration from a legendary classic (only for its assets, since the gameplay is built from scratch). It's a simple yet fun 2D shooter where you control the player using the WASD keys, while enemies continuously fall from the top of the screen. Your mission is to shoot down all incoming enemies while avoiding direct contact with them. Each hit reduces your health, and once it reaches zero, it's game over. The project was developed using the SFML library on Windows OS.
-          </p>
+           ECGuard is a wireless heartbeat and ECG monitoring system designed to provide continuous real-time health tracking in a compact and affordable form. The system uses the AD8232 ECG module to measure heartbeat signals, which are then processed and transmitted via ESP32 over Wi-Fi.
+
+           The data is streamed in real time to a responsive web dashboard, where users can view their ECG waveform and BPM (beats per minute) directly from any device. The dashboard is designed to be clean, intuitive, and accessible, allowing both users and healthcare providers to monitor heart activity without relying on bulky or expensive equipment.
+
+           This project combines embedded systems, IoT, and web technologies, highlighting how hardware and software integration can create meaningful solutions. Beyond the technical side, ECGuard also reflects my interest in applying technology to healthcare and real-world impact applications.
+           </p>
+           <div className="mt-4 p-3 bg-gray-100 rounded-md">
+           <p className="font-semibold text-gray-700">Tech Stack:</p>
+           <p className="text-sm text-gray-600">
+           Embedded C (ESP32), AD8232, Wi-Fi communication, Websocket, Web Dashboard (JavaScript, Node.js, Tailwind CSS).
+           </p>
+           </div>
           <a
-            href='https://github.com/zeineddinbachtiar/Story-in-Summer'
+            href='https://github.com/zeineddinbachtiar/ECGuard_FE'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Source Code</button>
+            <button className='px-8 py-2 mt-4 mr-8'>Source Code Frontend</button>
+          </a>
+          <a
+            href='https://github.com/zeineddinbachtiar/ECGuard_BE'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <button className='px-8 py-2 mt-4 mr-8'>Source Code Backend</button>
           </a>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
@@ -39,10 +56,22 @@ const game = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1 '>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> C++
+                <RiRadioButtonFill className='pr-1' /> ESP32
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> SFML
+                <RiRadioButtonFill className='pr-1' /> Embedded C
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> AD8232
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Websocket
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Tailwind CSS
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Node.js
               </p>
             </div>
           </div>

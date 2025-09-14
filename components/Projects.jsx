@@ -23,24 +23,24 @@ const Projects = () => {
 
           />
           <ProjectItem
-            title='ECGuard'
+            title='ECGuard : Wireless ECG Monitoring System'
             backgroundImg={game}
             projectUrl='/ECG'
-            tech='SFML'
+            tech='Next.js, ESP32, Websocket, Adonis.js'
 
           />
           <ProjectItem
-            title='Thesis'
+            title='Thesis : IoT Based Machine Life Monitoring on Lathe Machine'
             backgroundImg={game}
             projectUrl='/thesis'
-            tech='SFML'
+            tech='Next.js, ESP32, Express.js, MongoDB'
 
           />
           <ProjectItem
             title='Google Maps Scrapper'
             backgroundImg={game}
             projectUrl='/scraper'
-            tech='SFML'
+            tech='Python, Selenium, Pandas'
 
           />
         </div>
