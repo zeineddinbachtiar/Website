@@ -30,7 +30,7 @@ const Contact = () => {
                 <h2 className='py-2'>Zeineddin Ahmad Bachtiar</h2>
                 <p>Bachelor Graduate</p>
                 <p className='py-4'>
-                  I am available for trainee, fresh graduate position, or entry level-job. Contact me and get in touch.
+                  I am available for trainee, fresh graduate position,  or entry level-job. Contact me and get in touch.
                 </p>
               </div>
               <div>
@@ -64,7 +64,7 @@ const Contact = () => {
                   </div>
                   </a>
                     <a
-                      href='https://drive.google.com/file/d/1Yrp5_zb94x30jlok_6yeFN0a8iLq1imT/view?usp=sharing'
+                      href='https://drive.google.com/file/d/1sJmCZGuJK_oN0shqTgUb1Yezuv0QXX1r/view?usp=drive_link'
                       target='_blank'
                       rel='noreferrer'
                     >

@@ -30,12 +30,6 @@ const game = () => {
 
            This project combines embedded systems, IoT, and web technologies, highlighting how hardware and software integration can create meaningful solutions. Beyond the technical side, ECGuard also reflects my interest in applying technology to healthcare and real-world impact applications.
            </p>
-           <div className="mt-4 p-3 bg-gray-100 rounded-md">
-           <p className="font-semibold text-gray-700">Tech Stack:</p>
-           <p className="text-sm text-gray-600">
-           Embedded C (ESP32), AD8232, Wi-Fi communication, Websocket, Web Dashboard (JavaScript, Node.js, Tailwind CSS).
-           </p>
-           </div>
           <a
             href='https://github.com/zeineddinbachtiar/ECGuard_FE'
             target='_blank'
@@ -56,13 +50,13 @@ const game = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1 '>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> ESP32
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Embedded C
+                <RiRadioButtonFill className='pr-1' /> Embedded C (ESP32)
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> AD8232
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Wi-Fi communication
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Websocket

@@ -24,7 +24,11 @@ const game = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-           This game takes inspiration from a legendary classic (only for its assets, since the gameplay is built from scratch). It's a simple yet fun 2D shooter where you control the player using the WASD keys, while enemies continuously fall from the top of the screen. Your mission is to shoot down all incoming enemies while avoiding direct contact with them. Each hit reduces your health, and once it reaches zero, it's game over. The project was developed using the SFML library on Windows OS.
+           This project is a classic-inspired 2D shooter game that I built from scratch using the SFML library in C++ on Windows OS. The game takes its visual assets from a legendary title that almost everyone already knows, but the gameplay is fully original.
+
+           The player controls the shooter with the WASD keys, moving around the screen to aim and dodge. Meanwhile, waves of enemies continuously fall from the top of the screen toward the bottom. The mission is straightforward yet challenging: shoot as many enemies as possible while avoiding direct contact. Each collision decreases the player’s health, and once it reaches zero, the game ends.
+
+           This project was not only a fun way to explore game development, but also a learning experience in graphics rendering, event handling, and collision detection. It demonstrates my ability to combine problem-solving skills with creativity, while implementing real-time mechanics in a desktop application.
           </p>
           <a
             href='https://github.com/zeineddinbachtiar/Story-in-Summer'

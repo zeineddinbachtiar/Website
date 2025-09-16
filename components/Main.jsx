@@ -17,7 +17,7 @@ const Main = () => {
           </h1>
           <h2 className='py-2 text-gray-500'>A Fresh Graduate from Computer Engineering of Institut Teknologi Sepuluh Nopember</h2>
           <p className='py-4 text-gray-800 sm:max-w-[80%] m-auto text-right'>
-            People usually call me Zein. That's stands for Zeineddin Ahmad Bachtiar, which is my full name. Currently, i'm a Fresh Graduate from Computer Engineering in Institut Teknologi Sepuluh Nopember (ITS) Surabaya. I'm a person of curious, active, energetic, and willing to adapt and learn new things. I'm also interested in a lot of things, and technology is one of them. 
+            Hi, I'm Zein (short for Zeineddin Ahmad Bachtiar), a fresh graduate in Computer Engineering from Institut Teknologi Sepuluh Nopember (ITS) Surabaya. I'm a curious, energetic, and adaptable person who enjoys learning new things and exploring different fields. I have a strong interest in technology and its potential to solve real-world problems. With an active mindset and eagerness to grow, I'm always open to new challenges and opportunities to expand my knowledge and skills. 
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
@@ -48,7 +48,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href='https://drive.google.com/file/d/1Yrp5_zb94x30jlok_6yeFN0a8iLq1imT/view?usp=sharing'
+              href='https://drive.google.com/file/d/1sJmCZGuJK_oN0shqTgUb1Yezuv0QXX1r/view?usp=drive_link'
               target='_blank'
               rel='noreferrer'
             >

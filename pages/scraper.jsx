@@ -14,7 +14,7 @@ const game = () => {
         {/* Gradient overlay - darker at bottom where text is */}
         <div className='absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/60 z-10' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2 text-4xl font-bold drop-shadow-2xl'>Story in Summer</h2>
+          <h2 className='py-2 text-4xl font-bold drop-shadow-2xl'>Google Maps Review Scraper</h2>
           <h3 className='text-xl drop-shadow-lg'>C++ / SFML</h3>
         </div>
       </div>
@@ -24,10 +24,14 @@ const game = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-           This game takes inspiration from a legendary classic (only for its assets, since the gameplay is built from scratch). It's a simple yet fun 2D shooter where you control the player using the WASD keys, while enemies continuously fall from the top of the screen. Your mission is to shoot down all incoming enemies while avoiding direct contact with them. Each hit reduces your health, and once it reaches zero, it's game over. The project was developed using the SFML library on Windows OS.
+           This project is a data scraping tool designed to collect and analyze user reviews from Google Maps. Using Selenium and ChromeDriver, the scraper automates the browsing process, navigates to a specific business or location, and extracts review data such as reviewer name, rating, date, and review text.
+
+           The extracted data is then processed and structured using Pandas, enabling further cleaning, filtering, and analysis. With this workflow, large volumes of Google Maps reviews can be transformed into structured datasets for sentiment analysis, customer behavior insights, or business intelligence applications.
+
+           This project showcases practical experience in web automation, data extraction, and preprocessing pipelines, bridging raw unstructured data into meaningful insights.
           </p>
           <a
-            href='https://github.com/zeineddinbachtiar/Story-in-Summer'
+            href='https://github.com/zeineddinbachtiar/Crawling_Google_Maps'
             target='_blank'
             rel='noreferrer'
           >
@@ -39,10 +43,16 @@ const game = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1 '>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> C++
+                <RiRadioButtonFill className='pr-1' /> Python
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> SFML
+                <RiRadioButtonFill className='pr-1' /> Selenium
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Pandas
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Chromedriver
               </p>
             </div>
           </div>

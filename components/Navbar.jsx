@@ -69,7 +69,7 @@ const Navbar = () => {
               <Link href='/#projects'>Projects</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='https://drive.google.com/file/d/1Yrp5_zb94x30jlok_6yeFN0a8iLq1imT/view?usp=sharing'>Resume</Link>
+              <Link href='https://drive.google.com/file/d/1sJmCZGuJK_oN0shqTgUb1Yezuv0QXX1r/view?usp=drive_link'>Resume</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#contact'>Contact</Link>
@@ -138,11 +138,6 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href='/resume'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Resume
-                </li>
-              </Link>
               <Link href='/#contact'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Contact
@@ -153,42 +148,6 @@ const Navbar = () => {
               <p className='uppercase tracking-widest text-[#5651e5]'>
                 Let&#39;s Connect
               </p>
-              <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <FaLinkedinIn />
-                  </div>
-                </a>
-                <a
-                  href='https://github.com/fireclint'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <FaGithub />
-                  </div>
-                </a>
-                <Link href='/#contact'>
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
-                  >
-                    <AiOutlineMail />
-                  </div>
-                </Link>
-                <Link href='/resume'>
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
-                  >
-                    <BsFillPersonLinesFill />
-                  </div>
-                </Link>
-              </div>
             </div>
           </div>
         </div>
