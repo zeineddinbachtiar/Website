@@ -4,6 +4,9 @@ import React from 'react';
 import propertyImg from '../public/assets/projects/property.jpg';
 import game from'../public/assets/projects/game.png';
 import ProjectItem from './ProjectItem';
+import scraper from '../public/assets/projects/google_maps.png';
+import thesis from '../public/assets/projects/thesis_pic.png';
+import ECG from '../public/assets/projects/ECG_PIC.png';
 
 const Projects = () => {
   return (
@@ -24,21 +27,21 @@ const Projects = () => {
           />
           <ProjectItem
             title='ECGuard : Wireless ECG Monitoring System'
-            backgroundImg={game}
+            backgroundImg={ECG}
             projectUrl='/ECG'
             tech='Next.js, ESP32, Websocket, Adonis.js'
 
           />
           <ProjectItem
             title='Thesis : IoT Based Machine Life Monitoring on Lathe Machine'
-            backgroundImg={game}
+            backgroundImg={thesis}
             projectUrl='/thesis'
             tech='Next.js, ESP32, Express.js, MongoDB'
 
           />
           <ProjectItem
             title='Google Maps Scrapper'
-            backgroundImg={game}
+            backgroundImg={scraper}
             projectUrl='/scraper'
             tech='Python, Selenium, Pandas'
 

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import Game from '../public/assets/projects/game.png';
+import ECG from '../public/assets/projects/ECG_PIC.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -9,7 +9,7 @@ const game = () => {
     <div className='w-full'>
       <div 
         className='w-screen h-[70vh] relative bg-cover bg-center bg-no-repeat'
-        style={{ backgroundImage: `url(${Game.src || Game})` }}
+        style={{ backgroundImage: `url(${ECG.src || ECG})` }}
       >
         {/* Gradient overlay - darker at bottom where text is */}
         <div className='absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/60 z-10' />

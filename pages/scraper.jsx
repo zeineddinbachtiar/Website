@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import Game from '../public/assets/projects/game.png';
+import GMaps from '../public/assets/projects/google_maps.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -9,13 +9,13 @@ const game = () => {
     <div className='w-full'>
       <div 
         className='w-screen h-[70vh] relative bg-cover bg-center bg-no-repeat'
-        style={{ backgroundImage: `url(${Game.src || Game})` }}
+        style={{ backgroundImage: `url(${GMaps.src || GMaps})` }}
       >
         {/* Gradient overlay - darker at bottom where text is */}
         <div className='absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/60 z-10' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2 text-4xl font-bold drop-shadow-2xl'>Google Maps Review Scraper</h2>
-          <h3 className='text-xl drop-shadow-lg'>C++ / SFML</h3>
+          <h3 className='text-xl drop-shadow-lg'>Python / Selenium / Pandas / Chromedriver </h3>
         </div>
       </div>
 
