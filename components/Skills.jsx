@@ -9,6 +9,11 @@ import Github from '../public/assets/skills/github1.png';
 import NextJS from '../public/assets/skills/nextjs.png'
 import AWS from '../public/assets/skills/aws.png';
 import C from "../public/assets/skills/c++.png";
+import Python from "../public/assets/skills/python.png";
+import MongoDB from "../public/assets/skills/mongo.png";
+import Docker from "../public/assets/skills/docker.png";
+import PostgreSQL from "../public/assets/skills/postgre.png";
+
 
 const Skills = () => {
   return (
@@ -96,6 +101,46 @@ const Skills = () => {
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Next</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Python} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Python</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={MongoDB} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>MongoDB</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Docker} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Docker</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={PostgreSQL} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Postgre</h3>
               </div>
             </div>
           </div>
